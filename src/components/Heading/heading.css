@@ -1,0 +1,15 @@
+.app__heading h1 {
+  font-family: var(--font-base);
+  color: var(--color-golden);
+  letter-spacing: 0.04em;
+  line-height: 116px;
+  font-size: 90px;
+}
+@media screen and (max-width: 600px) {
+  .app__heading h1 {
+    font-size: 60px;
+  }
+  .app__heading p {
+    padding-top: 0;
+  }
+}
